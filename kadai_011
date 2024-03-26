@@ -1,0 +1,12 @@
+array = ["水","金","地","火","木","土","天","海","冥"]
+
+for value1 in array: 
+  print(value1)
+
+num = 0
+value2 = array[num]
+
+while value2 != "冥":
+  value2 = array[num] 
+  print(value2)
+  num = num + 1
