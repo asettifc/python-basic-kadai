@@ -1,0 +1,5 @@
+def purchase_price(price,tax):
+  total = price + (price * tax)
+  print(total)
+
+purchase_price(1000,0.1)
