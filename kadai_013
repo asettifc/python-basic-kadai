@@ -1,5 +1,4 @@
 def purchase_price(price,tax):
-  total = price + (price * tax)
-  print(total)
+  return price + (price * tax)
 
-purchase_price(1000,0.1)
+purchase_price(100,0.1)
